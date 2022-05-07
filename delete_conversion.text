@@ -1,0 +1,14 @@
+tell application "Messages" to activate
+repeat 500 times
+	tell application "System Events"
+		tell process "Messages"
+			delay 1
+			click at {90, 145}
+			delay 1
+			
+			click menu item "Delete Conversation…" of menu "File" of menu bar item "File" of menu bar 1 of application process "Messages" of application "System Events"
+			delay 1
+			click button "Delete" of sheet 1 of window 1
+		end tell
+	end tell
+end repeat
