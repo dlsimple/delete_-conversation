@@ -5,3 +5,4 @@
 把 delete_conversation.text 里面的内容复制进去，然后执行。
 
 ## 其他
+适用 macOS Monterey 
